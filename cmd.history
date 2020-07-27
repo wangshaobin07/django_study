@@ -1,0 +1,13 @@
+  529  django-admin startproject mysite .
+  543  python3 manage.py migrate
+  545  python3 manage.py runserver
+  548  python3 manage.py startapp blog
+
+  562  python3 manage.py makemigrations blog
+  565  python3 manage.py migrate blog
+  567  vi blog/admin.py 
+
+
+  575  python3 manage.py createsuperuser
+  545  python3 manage.py runserver
+
